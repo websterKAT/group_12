@@ -1,0 +1,157 @@
+ @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
+
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+body{
+
+	font-family: "Open Sans";
+}
+
+a {
+	text-decoration: none;
+}
+
+div#header {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	height:65px;
+	background-color: #455A64;
+	margin-top: 0 auto;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+
+} 
+
+
+div#name {
+	position: relative;
+	
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: 900;
+	margin-right: 10px;
+	float: left;
+	
+}
+
+div.ucsclogo {
+	position: relative;
+	background-color:#fff;
+	float: left;
+	background-image: url("ucsc_logo.png");
+	margin-bottom: 10px;
+	width:79px;
+	height: 47px;
+	background-repeat: no-repeat;
+	border-radius:45%;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+div.bitlogo{
+	background-color: red;
+	position: relative;
+	float: left;
+	background-image: url("bit_logo.png");
+	margin-bottom: 10px;
+	width:79px;
+	height: 47px;
+	background-repeat: no-repeat;
+	border-radius:45%;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+div.leftSideBar {
+	position: relative;
+	width: 100px;
+	background-color:#455A64;
+	height: 600px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 8px;
+	
+}
+div.rightSideBar{
+	position: relative;
+	float: right;
+	width:100px;
+	height: 600px;
+	background-color: #455A64;
+	margin-top: 10px;
+	border-radius: 8px;
+}
+
+div.content{
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width:1300px;
+	height: 600px;
+	background-color: #E0F2F1;
+	border-radius: 10px;
+}
+
+div.footer {
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width: 1501px;
+	height: 150px;
+	background-color: #263238;
+	overflow: hidden;
+}
+div.wrap {
+	position: relative;
+	width:440px;
+	overflow:hidden;
+	margin:auto;
+	margin-top: 150px;
+	margin-left: 450px;
+	background-color:#455A64;
+	padding: 20px;
+	border-radius: 10px;
+	
+}
+
+div.wrap input {
+	position: relative;
+	width: 400px;
+	height: 35px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border:1px solid silver;
+	padding: 5px;
+}
+
+h2 {
+	color: white;
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ div.wrap .btn-login 	{
+ 	position: relative;
+ 	width: 400px;
+ 	height: 35px;
+ 	background-color:#455A64;
+ 	color: white;
+ 	font-weight: 
+ 	border-radius:10px;
+ 	
+ }
+
+ .foot {
+ 	color: white;
+ 	text-align:center;
+ }
+
